@@ -1,0 +1,21 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=593
+
+This plugin defines key mappings to quickly make the GUI font larger or
+smaller. The default mappings are "+" to make the font larger by 1 point
+and "-" to make the font smaller by 1 point. The original font size can
+be restored with "=" key at any time. The mappings are user-configurable
+(see the installation section below).
+
+This plugin should work on Unix and Win32 but it will work only with
+certain patterns of 'guifont' option, namely:
+
+ - on Unix, 'guifont' should be set to the X Logical Font Description
+   (XLFD) name, for example:
+
+      set guifont=-*-lucidatypewriter-bold-*-*-*-15-*-*-*-*-*-*-*
+
+ - on Win32, 'guifont' should include 'hXX' font option, for example:
+
+      set guifont=Lucida_Console:h8:cANSI
+
+Please let me know if this is not good enough for you.
