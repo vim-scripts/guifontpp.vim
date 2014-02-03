@@ -127,7 +127,7 @@ fun! s:SetOriginalFont()
     endif
 endfun
 
-let s:ms = "map <silent> "
+let s:ms = "nnoremap <silent> "
 exe s:ms . s:guifontpp_smaller_font_map  . " :call <SID>SetSmallerFont()<CR>"
 exe s:ms . s:guifontpp_larger_font_map   . " :call <SID>SetLargerFont()<CR>"
 exe s:ms . s:guifontpp_original_font_map . " :call <SID>SetOriginalFont()<CR>"
