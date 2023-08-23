@@ -70,7 +70,7 @@ if exists("g:guifontpp_original_font_map")
     let s:guifontpp_original_font_map = g:guifontpp_original_font_map
 endif
 
-let s:decimalpat = '[1-9][0-9]*'
+let s:decimalpat = '[1-9][0-9]*\.\?[0-9]\?'
 let s:fontpat_unix = '^\(\(-[^-]\+\)\{6}-\)\(' . s:decimalpat . '\)'
 let s:fontpat_win32 = '\(:h\)\(' . s:decimalpat . '\)\(:\|,\|$\)'
 
